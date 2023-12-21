@@ -40,7 +40,6 @@ distances['Paris']['Moscow'] = london_moscow
 distances['Paris']['London'] = london_paris
 
 
-# TODO здесь заполнение словаря
 
 pprint(distances)
 
