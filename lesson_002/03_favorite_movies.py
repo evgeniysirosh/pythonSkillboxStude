@@ -5,10 +5,10 @@
 
 my_favorite_movies = 'Терминатор, Пятый элемент, Аватар, Чужие, Назад в будущее'
 
-print (my_favorite_movies[0:10])
-print (my_favorite_movies[-15:])
-print (my_favorite_movies[11:25])
-print (my_favorite_movies[-23:-17])
+print(my_favorite_movies[0:10])
+print(my_favorite_movies[-15:])
+print(my_favorite_movies[11:25])
+print(my_favorite_movies[-23:-17])
 
 # Выведите на консоль с помощью индексации строки, последовательно:
 #   первый фильм

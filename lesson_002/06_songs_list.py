@@ -17,7 +17,7 @@ violator_songs_list = [
 halo = (violator_songs_list[3][1])
 enjoy = (violator_songs_list[5][1])
 clean = (violator_songs_list[8][1])
-print ('Три песни звучат', halo+enjoy+clean, 'минут')
+print('Три песни звучат', halo + enjoy + clean, 'минут')
 
 # распечатайте общее время звучания трех песен: 'Halo', 'Enjoy the Silence' и 'Clean' в формате
 #   Три песни звучат ХХХ минут
@@ -49,4 +49,4 @@ sweetest = violator_songs_dict['Sweetest Perfection']
 policy = violator_songs_dict['Policy of Truth']
 blue = violator_songs_dict['Blue Dress']
 
-print ('А другие три песни звучат', sweetest+policy+blue, 'минут')
+print('А другие три песни звучат', sweetest + policy + blue, 'минут')

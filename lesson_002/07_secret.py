@@ -10,7 +10,7 @@ secret_message = [
     'ьд5фму3ежородт9г686буиимыкучшсал',
     'бсц59мегщ2лятьаьгенедыв9фк9ехб1а',
 ]
-print (secret_message[0][3:4], secret_message[1][9:13], secret_message[2][5:15:2], secret_message[3][-20:-26:-1],
+print(secret_message[0][3:4], secret_message[1][9:13], secret_message[2][5:15:2], secret_message[3][-20:-26:-1],
        secret_message[4][-12:-17:-1]
        )
 # ключ к расшифровке:

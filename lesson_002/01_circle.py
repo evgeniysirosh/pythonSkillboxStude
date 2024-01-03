@@ -7,7 +7,7 @@ r = radius
 p = 3.1415926
 area = p * r ** 2
 rounded_area = round(area, 4)
-print (rounded_area)
+print(rounded_area)
 
 # Выведите на консоль значение площади этого круга с точностю до 4-х знаков после запятой
 # подсказки:
