@@ -15,7 +15,7 @@ print (zoo)
 # добавьте птиц из списка birds в последние клетки зоопарка
 birds = ['rooster', 'ostrich', 'lark']
 zoo.extend (birds)
-print('После добавления птиц:')
+print ('После добавления птиц:')
 print (zoo)
 #  и выведите список на консоль
 #
@@ -24,8 +24,8 @@ print (zoo)
 #  и выведите список на консоль
 
 zoo.remove('elephant')
-print('После удаления слона:')
-print(zoo)
+print ('После удаления слона:')
+print (zoo)
 
 print ('Номер клітки лева :',zoo.index('lion')+1)
 print ('Номер клітки жаворонка:',zoo.index('lark')+1)

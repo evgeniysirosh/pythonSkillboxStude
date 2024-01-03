@@ -41,7 +41,7 @@ lamps_item = store[lamp_code][0]
 lamps_quantity = lamps_item['quantity']
 lamps_price = lamps_item['price']
 lamps_cost = lamps_quantity * lamps_price
-print('Лампа -', lamps_quantity, 'шт, стоимость', lamps_cost, 'руб')
+print ('Лампа -', lamps_quantity, 'шт, стоимость', lamps_cost, 'руб')
 
 table_code = goods['Стол']
 tables_item = store[table_code][0]
@@ -54,20 +54,20 @@ tables_item_1 = store[table_code_1][1]
 tables_quantity_1 = tables_item_1['quantity']
 tables_price_1 = tables_item_1['price']
 tables_cost_1 = tables_quantity_1 * tables_price_1
-print('Стол -', tables_quantity+tables_quantity_1, 'шт, стоимость', tables_cost+tables_cost_1, 'руб')
+print ('Стол -', tables_quantity+tables_quantity_1, 'шт, стоимость', tables_cost+tables_cost_1, 'руб')
 
 sofa_code = goods['Диван']
 sofa_item = store[sofa_code][0]
 sofa_quantity = sofa_item['quantity']
 sofa_price = sofa_item['price']
-sofa_cost = sofa_quantity*sofa_price
+sofa_cost = sofa_quantity * sofa_price
 
 sofa_code_1 = goods['Диван']
 sofa_item_1 = store[sofa_code_1][1]
 sofa_quantity_1 = sofa_item_1['quantity']
 sofa_price_1 = sofa_item_1['price']
-sofa_cost_1 = sofa_quantity_1*sofa_price_1
-print('Диван -', sofa_quantity+sofa_quantity_1, 'шт, стоимость', sofa_cost+sofa_cost_1, 'руб')
+sofa_cost_1 = sofa_quantity_1 * sofa_price_1
+print ('Диван -', sofa_quantity+sofa_quantity_1, 'шт, стоимость', sofa_cost+sofa_cost_1, 'руб')
 
 
 chair_code = goods['Стул']
@@ -88,7 +88,7 @@ chair_quantity_2 = chair_item_2['quantity']
 chair_price_2 = chair_item_2['price']
 chair_cost_2 = chair_price_2 * chair_quantity_2
 
-print('Стул -', chair_quantity+chair_quantity_1+chair_quantity_2, 'шт, стоимость', chair_cost+chair_cost_1+chair_cost_2, 'руб')
+print ('Стул -', chair_quantity+chair_quantity_1+chair_quantity_2, 'шт, стоимость', chair_cost+chair_cost_1+chair_cost_2, 'руб')
 # Вывести стоимость каждого товара на складе: один раз распечать сколько всего столов, стульев и т.д. на складе
 # Формат строки <товар> - <кол-во> шт, стоимость <общая стоимость> руб
 
